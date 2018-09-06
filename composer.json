@@ -1,0 +1,24 @@
+{
+  "name": "Parser",
+  "description": "Parser test job",
+  "version": "1.0",
+  "require": {
+    "php": ">=7.0"
+  },
+  "config": {
+    "platform": {
+      "php": "7.0.0"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Parser\\": "lib"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mamedova Nataliya",
+      "email": "mamed.nata@gmail.com"
+    }
+  ]
+}
